@@ -1,0 +1,60 @@
+{
+    "anims": [
+        {
+            "key": "parado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "8"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "9"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "10"
+                }
+            ]
+        },
+        {
+            "key": "corriendo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "1"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "2"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "3"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "4"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "5"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "6"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "7"
+                }
+            ]
+        }
+    ]
+}
