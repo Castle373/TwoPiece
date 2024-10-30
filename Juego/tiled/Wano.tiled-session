@@ -1,0 +1,28 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "items.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.externalTilesetPath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/tiled",
+    "last.imagePath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/img",
+    "map.height": 58,
+    "map.width": 125,
+    "openFiles": [
+    ],
+    "project": "Wano.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+    ],
+    "tileset.embedInMap": true
+}
