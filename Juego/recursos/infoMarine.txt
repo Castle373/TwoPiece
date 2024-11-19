@@ -1,0 +1,5 @@
+0-3 quieto
+4-8 caminando
+9-12 cooriendo
+13-16 atacando
+17-19 muriendo

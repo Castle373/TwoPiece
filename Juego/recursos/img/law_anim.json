@@ -1,0 +1,32 @@
+{
+    "anims": [
+        {
+            "key": "lawparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "law",
+                    "frame": "law_(1)"
+                },
+                {
+                    "key": "law",
+                    "frame": "law_(2)"
+                },
+                {
+                    "key": "law",
+                    "frame": "law_(3)"
+                },
+                {
+                    "key": "law",
+                    "frame": "law_(4)"
+                },
+                {
+                    "key": "law",
+                    "frame": "law_(5)"
+                }
+            ]
+        }
+    ]
+}

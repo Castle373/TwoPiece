@@ -1,0 +1,24 @@
+{
+    "anims": [
+        {
+            "key": "kinemonparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "kinemon",
+                    "frame": "kinemon_(1)"
+                },
+                {
+                    "key": "kinemon",
+                    "frame": "kinemon_(2)"
+                },
+                {
+                    "key": "kinemon",
+                    "frame": "kinemon_(3)"
+                }
+            ]
+        }
+    ]
+}

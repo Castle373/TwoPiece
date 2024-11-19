@@ -1,0 +1,112 @@
+{
+    "frames": [
+        {
+            "filename": "hilo3",
+            "frame": {
+                "w": 78,
+                "h": 13,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo4",
+            "frame": {
+                "w": 65,
+                "h": 13,
+                "x": 50,
+                "y": 113
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo5",
+            "frame": {
+                "w": 61,
+                "h": 13,
+                "x": 50,
+                "y": 176
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo2",
+            "frame": {
+                "w": 51,
+                "h": 13,
+                "x": 161,
+                "y": 176
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo7",
+            "frame": {
+                "w": 45,
+                "h": 13,
+                "x": 165,
+                "y": 113
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo8",
+            "frame": {
+                "w": 30,
+                "h": 13,
+                "x": 178,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo6",
+            "frame": {
+                "w": 28,
+                "h": 13,
+                "x": 50,
+                "y": 239
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "hilo1",
+            "frame": {
+                "w": 26,
+                "h": 13,
+                "x": 128,
+                "y": 239
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

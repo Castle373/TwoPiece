@@ -1,0 +1,394 @@
+{
+    "frames": [
+        {
+            "filename": "golpelargo_(7)",
+            "frame": {
+                "w": 140,
+                "h": 50,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(8)",
+            "frame": {
+                "w": 127,
+                "h": 51,
+                "x": 50,
+                "y": 150
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(6)",
+            "frame": {
+                "w": 112,
+                "h": 50,
+                "x": 240,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(9)",
+            "frame": {
+                "w": 109,
+                "h": 51,
+                "x": 227,
+                "y": 150
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(5)",
+            "frame": {
+                "w": 82,
+                "h": 50,
+                "x": 50,
+                "y": 251
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(10)",
+            "frame": {
+                "w": 79,
+                "h": 51,
+                "x": 50,
+                "y": 351
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(5)",
+            "frame": {
+                "w": 66,
+                "h": 54,
+                "x": 182,
+                "y": 251
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "parado_(3)",
+            "frame": {
+                "w": 41,
+                "h": 65,
+                "x": 298,
+                "y": 251
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "parado_(2)",
+            "frame": {
+                "w": 41,
+                "h": 64,
+                "x": 402,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "parado_(1)",
+            "frame": {
+                "w": 41,
+                "h": 63,
+                "x": 389,
+                "y": 164
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(4)",
+            "frame": {
+                "w": 62,
+                "h": 54,
+                "x": 50,
+                "y": 452
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(1)",
+            "frame": {
+                "w": 32,
+                "h": 61,
+                "x": 389,
+                "y": 277
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(2)",
+            "frame": {
+                "w": 40,
+                "h": 60,
+                "x": 179,
+                "y": 355
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(2)",
+            "frame": {
+                "w": 39,
+                "h": 60,
+                "x": 269,
+                "y": 366
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(3)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 358,
+                "y": 388
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(12)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 493,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(13)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 493,
+                "y": 158
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(2)",
+            "frame": {
+                "w": 47,
+                "h": 57,
+                "x": 480,
+                "y": 266
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(6)",
+            "frame": {
+                "w": 49,
+                "h": 57,
+                "x": 471,
+                "y": 373
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(8)",
+            "frame": {
+                "w": 46,
+                "h": 57,
+                "x": 50,
+                "y": 556
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(4)",
+            "frame": {
+                "w": 48,
+                "h": 56,
+                "x": 146,
+                "y": 556
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(7)",
+            "frame": {
+                "w": 56,
+                "h": 52,
+                "x": 244,
+                "y": 476
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(1)",
+            "frame": {
+                "w": 40,
+                "h": 56,
+                "x": 448,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(1)",
+            "frame": {
+                "w": 47,
+                "h": 55,
+                "x": 350,
+                "y": 496
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(3)",
+            "frame": {
+                "w": 55,
+                "h": 52,
+                "x": 583,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "corriendo_(5)",
+            "frame": {
+                "w": 48,
+                "h": 55,
+                "x": 583,
+                "y": 152
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(4)",
+            "frame": {
+                "w": 54,
+                "h": 50,
+                "x": 583,
+                "y": 257
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(3)",
+            "frame": {
+                "w": 40,
+                "h": 53,
+                "x": 577,
+                "y": 357
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "doblegolpe_(6)",
+            "frame": {
+                "w": 45,
+                "h": 54,
+                "x": 50,
+                "y": 563
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0
+            }
+        },
+        {
+            "filename": "golpelargo_(11)",
+            "frame": {
+                "w": 50,
+                "h": 51,
+                "x": 250,
+                "y": 578
+            },
+            "anchor": {
+                "x": 0,
+                "y": 0.5
+            }
+        }
+    ]
+}

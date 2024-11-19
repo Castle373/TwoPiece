@@ -1,0 +1,132 @@
+{
+    "anims": [
+        {
+            "key": "marinaatacado",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinamuriendo_(1)"
+                }
+            ]
+        },
+        {
+            "key": "marinaparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinaparado_(1)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinaparado_(2)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinaparado_(3)"
+                }
+            ]
+        },
+        {
+            "key": "marinamuriendo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinamuriendo_(1)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinamuriendo_(2)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinamuriendo_(3)"
+                }
+            ]
+        },
+        {
+            "key": "marinacaminando",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinacaminando_(5)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacaminando_(4)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacaminando_(3)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacaminando_(2)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacaminando_(1)"
+                }
+            ]
+        },
+        {
+            "key": "marinacorriendo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinacorriendo_(4)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacorriendo_(3)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacorriendo_(2)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinacorriendo_(1)"
+                }
+            ]
+        },
+        {
+            "key": "marinaatacando",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "marina",
+                    "frame": "marinaatacando_(1)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinaatacando_(2)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinaatacando_(3)"
+                },
+                {
+                    "key": "marina",
+                    "frame": "marinaatacando_(4)"
+                }
+            ]
+        }
+    ]
+}

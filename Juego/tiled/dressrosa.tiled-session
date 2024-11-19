@@ -1,0 +1,70 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "dress.tmx",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "Wano.tmx": {
+            "scale": 0.21636249999999999,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 3300.0173320238027,
+                "y": 1555.2602692241035
+            }
+        },
+        "Wano.tmx#items": {
+            "scaleInDock": 1
+        },
+        "dress.tmx": {
+            "expandedObjectLayers": [
+                4
+            ],
+            "scale": 1.5,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 848.6666666666666,
+                "y": 435.66666666666663
+            }
+        },
+        "dress.tmx#ladrillos": {
+            "scaleInDock": 1
+        },
+        "dress.tmx#piso": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "items.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.exportedFilePath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/scripts",
+    "last.imagePath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/img",
+    "map.height": 67,
+    "map.lastUsedExportFilter": "Todos los archivos (*)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 18,
+    "map.tileWidth": 18,
+    "map.width": 82,
+    "openFiles": [
+        "dress.tmx",
+        "Wano.tmx",
+        "items.tsx"
+    ],
+    "project": "dressrosa.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "items.tsx",
+        "Wano.tmx",
+        "dress.tmx"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 18,
+        "width": 18
+    }
+}

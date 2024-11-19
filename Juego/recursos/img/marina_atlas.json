@@ -1,0 +1,255 @@
+{
+    "frames": [
+        {
+            "filename": "marinacorriendo_(4)",
+            "frame": {
+                "w": 27,
+                "h": 58,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacorriendo_(1)",
+            "frame": {
+                "w": 30,
+                "h": 57,
+                "x": 127,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacorriendo_(2)",
+            "frame": {
+                "w": 31,
+                "h": 57,
+                "x": 50,
+                "y": 158
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacorriendo_(3)",
+            "frame": {
+                "w": 36,
+                "h": 55,
+                "x": 207,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaatacando_(3)",
+            "frame": {
+                "w": 55,
+                "h": 44,
+                "x": 131,
+                "y": 157
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacaminando_(3)",
+            "frame": {
+                "w": 37,
+                "h": 52,
+                "x": 50,
+                "y": 265
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacaminando_(4)",
+            "frame": {
+                "w": 37,
+                "h": 52,
+                "x": 137,
+                "y": 251
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaatacando_(2)",
+            "frame": {
+                "w": 45,
+                "h": 52,
+                "x": 293,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacaminando_(1)",
+            "frame": {
+                "w": 34,
+                "h": 51,
+                "x": 293,
+                "y": 152
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacaminando_(2)",
+            "frame": {
+                "w": 33,
+                "h": 51,
+                "x": 224,
+                "y": 253
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinacaminando_(5)",
+            "frame": {
+                "w": 39,
+                "h": 51,
+                "x": 50,
+                "y": 367
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinamuriendo_(3)",
+            "frame": {
+                "w": 51,
+                "h": 17,
+                "x": 139,
+                "y": 354
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaparado_(3)",
+            "frame": {
+                "w": 43,
+                "h": 49,
+                "x": 240,
+                "y": 354
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaatacando_(1)",
+            "frame": {
+                "w": 43,
+                "h": 49,
+                "x": 388,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaparado_(2)",
+            "frame": {
+                "w": 43,
+                "h": 48,
+                "x": 388,
+                "y": 149
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaatacando_(4)",
+            "frame": {
+                "w": 48,
+                "h": 42,
+                "x": 377,
+                "y": 247
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinaparado_(1)",
+            "frame": {
+                "w": 43,
+                "h": 47,
+                "x": 333,
+                "y": 339
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinamuriendo_(2)",
+            "frame": {
+                "w": 45,
+                "h": 44,
+                "x": 50,
+                "y": 468
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "marinamuriendo_(1)",
+            "frame": {
+                "w": 43,
+                "h": 42,
+                "x": 145,
+                "y": 421
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

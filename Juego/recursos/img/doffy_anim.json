@@ -1,0 +1,180 @@
+{
+    "anims": [
+        {
+            "key": "doffyatacandoarriba",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(1)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(6)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(2)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(3)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(4)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(5)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(6)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataquearriba_(7)"
+                }
+            ]
+        },
+        {
+            "key": "doffyatacadoaire",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(1)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(2)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(3)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(4)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(5)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(6)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(7)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(8)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataqueaire_(9)"
+                }
+            ]
+        },
+        {
+            "key": "doffyatacando",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(1)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(2)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(3)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(4)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(5)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(6)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(7)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(8)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(9)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyataque_(10)"
+                }
+            ]
+        },
+        {
+            "key": "doffyriendo",
+            "type": "frames",
+            "repeat": 5,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyriendo_(1)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyriendo_(2)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyriendo_(3)"
+                }
+            ]
+        },
+        {
+            "key": "doffyparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyparado_(1)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyparado_(2)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyparado_(3)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyparado_(4)"
+                }
+            ]
+        }
+    ]
+}

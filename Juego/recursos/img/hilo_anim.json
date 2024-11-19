@@ -1,0 +1,44 @@
+{
+    "anims": [
+        {
+            "key": "ataquehilo",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "hilo",
+                    "frame": "hilo1"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo2"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo3"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo4"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo5"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo6"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo7"
+                },
+                {
+                    "key": "hilo",
+                    "frame": "hilo8"
+                }
+            ]
+        }
+    ]
+}

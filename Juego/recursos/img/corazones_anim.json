@@ -1,0 +1,20 @@
+{
+    "anims": [
+        {
+            "key": "palpitar",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 9,
+            "frames": [
+                {
+                    "key": "corazones",
+                    "frame": "corazones(1)"
+                },
+                {
+                    "key": "corazones",
+                    "frame": "corazones(2)"
+                }
+            ]
+        }
+    ]
+}

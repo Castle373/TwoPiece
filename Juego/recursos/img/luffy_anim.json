@@ -1,58 +1,466 @@
 {
     "anims": [
         {
-            "key": "parado",
+            "key": "luffylevantandose",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffylevantandose_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffylevantandose_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffylevantandose_(3)"
+                }
+            ]
+        },
+        {
+            "key": "luffcaida",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffycayendo_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffycayendo_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffycayendo_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffycayendo_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffycayendo_(5)"
+                }
+            ]
+        },
+        {
+            "key": "luffysalto",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffysalto_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffysalto_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffysalto_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffysalto_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffysalto_(5)"
+                }
+            ]
+        },
+        {
+            "key": "luffydash",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffyhumo"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffydash_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffydash_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffydash_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffyhumo"
+                }
+            ]
+        },
+        {
+            "key": "luffytree",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(5)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(6)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(7)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(8)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(9)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(10)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(11)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(12)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(13)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(14)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(15)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(16)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(17)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(18)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(19)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(20)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(21)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffymagnum_(22)"
+                }
+            ]
+        },
+        {
+            "key": "luffygolpepie",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 18,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(5)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(6)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(7)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(8)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(9)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(10)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(11)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(12)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(13)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(14)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(15)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(16)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(17)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(18)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(19)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "luffygolpepie_(20)"
+                }
+            ]
+        },
+        {
+            "key": "luffyjet",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "pistoljet_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "pistoljet_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "pistoljet_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "pistoljet_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "pistoljet_(6)"
+                }
+            ]
+        },
+        {
+            "key": "luffylargogolpe",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 25,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(5)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(6)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(7)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(8)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(9)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(10)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(11)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(12)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "golpelargo_(13)"
+                }
+            ]
+        },
+        {
+            "key": "luffyparado",
             "type": "frames",
             "repeat": -1,
             "frameRate": 7,
             "frames": [
                 {
                     "key": "luffy",
-                    "frame": "8"
+                    "frame": "parado_(1)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "9"
+                    "frame": "parado_(2)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "10"
+                    "frame": "parado_(3)"
                 }
             ]
         },
         {
-            "key": "corriendo",
+            "key": "luffycorriendo",
             "type": "frames",
             "repeat": -1,
             "frameRate": 10,
             "frames": [
                 {
                     "key": "luffy",
-                    "frame": "1"
+                    "frame": "corriendo_(1)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "2"
+                    "frame": "corriendo_(2)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "3"
+                    "frame": "corriendo_(3)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "4"
+                    "frame": "corriendo_(4)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "5"
+                    "frame": "corriendo_(5)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "6"
+                    "frame": "corriendo_(6)"
                 },
                 {
                     "key": "luffy",
-                    "frame": "7"
+                    "frame": "corriendo_(7)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "corriendo_(8)"
+                }
+            ]
+        },
+        {
+            "key": "luffygolpe",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 13,
+            "frames": [
+                {
+                    "key": "luffy",
+                    "frame": "doblegolpe_(1)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "doblegolpe_(2)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "doblegolpe_(3)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "doblegolpe_(4)"
+                },
+                {
+                    "key": "luffy",
+                    "frame": "doblegolpe_(5)"
                 }
             ]
         }

@@ -1,0 +1,47 @@
+{
+    "frames": [
+        {
+            "filename": "tecla_(2)",
+            "frame": {
+                "w": 56,
+                "h": 58,
+                "x": 10,
+                "y": 10
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tecla_(1)",
+            "frame": {
+                "w": 56,
+                "h": 58,
+                "x": 76,
+                "y": 10
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "tecla_(3)",
+            "frame": {
+                "w": 56,
+                "h": 55,
+                "x": 10,
+                "y": 78
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

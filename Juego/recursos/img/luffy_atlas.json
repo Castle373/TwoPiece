@@ -1,12 +1,584 @@
 {
     "frames": [
         {
-            "filename": "10",
+            "filename": "luffymagnum_(18)",
+            "frame": {
+                "w": 187,
+                "h": 80,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(19)",
+            "frame": {
+                "w": 187,
+                "h": 80,
+                "x": 50,
+                "y": 180
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(20)",
+            "frame": {
+                "w": 187,
+                "h": 80,
+                "x": 287,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(17)",
+            "frame": {
+                "w": 183,
+                "h": 80,
+                "x": 287,
+                "y": 180
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(21)",
+            "frame": {
+                "w": 182,
+                "h": 80,
+                "x": 50,
+                "y": 310
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(13)",
+            "frame": {
+                "w": 160,
+                "h": 77,
+                "x": 282,
+                "y": 310
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(11)",
+            "frame": {
+                "w": 158,
+                "h": 79,
+                "x": 50,
+                "y": 440
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(12)",
+            "frame": {
+                "w": 157,
+                "h": 78,
+                "x": 258,
+                "y": 440
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(16)",
+            "frame": {
+                "w": 154,
+                "h": 80,
+                "x": 524,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(10)",
+            "frame": {
+                "w": 152,
+                "h": 79,
+                "x": 465,
+                "y": 437
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(15)",
+            "frame": {
+                "w": 150,
+                "h": 62,
+                "x": 520,
+                "y": 180
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(17)",
+            "frame": {
+                "w": 146,
+                "h": 62,
+                "x": 520,
+                "y": 292
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(16)",
+            "frame": {
+                "w": 146,
+                "h": 62,
+                "x": 50,
+                "y": 569
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(7)",
+            "frame": {
+                "w": 140,
+                "h": 50,
+                "x": 246,
+                "y": 569
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(14)",
+            "frame": {
+                "w": 137,
+                "h": 64,
+                "x": 465,
+                "y": 566
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(8)",
+            "frame": {
+                "w": 127,
+                "h": 51,
+                "x": 50,
+                "y": 681
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(6)",
+            "frame": {
+                "w": 112,
+                "h": 50,
+                "x": 227,
+                "y": 681
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(9)",
+            "frame": {
+                "w": 109,
+                "h": 51,
+                "x": 389,
+                "y": 680
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(12)",
+            "frame": {
+                "w": 101,
+                "h": 77,
+                "x": 728,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(13)",
+            "frame": {
+                "w": 101,
+                "h": 77,
+                "x": 728,
+                "y": 177
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(14)",
+            "frame": {
+                "w": 101,
+                "h": 77,
+                "x": 716,
+                "y": 304
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(18)",
+            "frame": {
+                "w": 100,
+                "h": 53,
+                "x": 667,
+                "y": 431
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(11)",
+            "frame": {
+                "w": 88,
+                "h": 75,
+                "x": 667,
+                "y": 534
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(9)",
+            "frame": {
+                "w": 83,
+                "h": 60,
+                "x": 652,
+                "y": 659
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(5)",
+            "frame": {
+                "w": 82,
+                "h": 50,
+                "x": 50,
+                "y": 782
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(9)",
+            "frame": {
+                "w": 82,
+                "h": 63,
+                "x": 548,
+                "y": 769
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(10)",
+            "frame": {
+                "w": 79,
+                "h": 51,
+                "x": 227,
+                "y": 781
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(10)",
+            "frame": {
+                "w": 78,
+                "h": 67,
+                "x": 879,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(22)",
+            "frame": {
+                "w": 77,
+                "h": 69,
+                "x": 879,
+                "y": 167
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(7)",
+            "frame": {
+                "w": 76,
+                "h": 71,
+                "x": 879,
+                "y": 286
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(8)",
+            "frame": {
+                "w": 76,
+                "h": 72,
+                "x": 867,
+                "y": 407
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(6)",
+            "frame": {
+                "w": 74,
+                "h": 71,
+                "x": 817,
+                "y": 529
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(6)",
+            "frame": {
+                "w": 74,
+                "h": 71,
+                "x": 805,
+                "y": 650
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(8)",
+            "frame": {
+                "w": 38,
+                "h": 72,
+                "x": 50,
+                "y": 882
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(7)",
+            "frame": {
+                "w": 64,
+                "h": 71,
+                "x": 138,
+                "y": 882
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(2)",
+            "frame": {
+                "w": 33,
+                "h": 71,
+                "x": 252,
+                "y": 882
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(1)",
+            "frame": {
+                "w": 33,
+                "h": 71,
+                "x": 335,
+                "y": 882
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffydash_(1)",
+            "frame": {
+                "w": 69,
+                "h": 40,
+                "x": 680,
+                "y": 769
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffydash_(2)",
+            "frame": {
+                "w": 69,
+                "h": 40,
+                "x": 356,
+                "y": 781
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffycayendo_(4)",
+            "frame": {
+                "w": 69,
+                "h": 57,
+                "x": 418,
+                "y": 851
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffycayendo_(5)",
+            "frame": {
+                "w": 69,
+                "h": 57,
+                "x": 537,
+                "y": 842
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(5)",
+            "frame": {
+                "w": 40,
+                "h": 68,
+                "x": 656,
+                "y": 882
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(4)",
+            "frame": {
+                "w": 41,
+                "h": 67,
+                "x": 746,
+                "y": 859
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doblegolpe_(5)",
+            "frame": {
+                "w": 66,
+                "h": 54,
+                "x": 837,
+                "y": 771
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "parado_(3)",
             "frame": {
                 "w": 41,
                 "h": 65,
-                "x": 30,
-                "y": 30
+                "x": 837,
+                "y": 875
             },
             "anchor": {
                 "x": 0.5,
@@ -14,12 +586,90 @@
             }
         },
         {
-            "filename": "9",
+            "filename": "luffygolpepie_(3)",
+            "frame": {
+                "w": 64,
+                "h": 59,
+                "x": 1007,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(4)",
+            "frame": {
+                "w": 64,
+                "h": 61,
+                "x": 1007,
+                "y": 159
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(5)",
+            "frame": {
+                "w": 63,
+                "h": 64,
+                "x": 1006,
+                "y": 270
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(3)",
+            "frame": {
+                "w": 64,
+                "h": 59,
+                "x": 1005,
+                "y": 384
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(5)",
+            "frame": {
+                "w": 63,
+                "h": 64,
+                "x": 929,
+                "y": 650
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(4)",
+            "frame": {
+                "w": 64,
+                "h": 61,
+                "x": 941,
+                "y": 529
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "parado_(2)",
             "frame": {
                 "w": 41,
                 "h": 64,
-                "x": 101,
-                "y": 30
+                "x": 928,
+                "y": 875
             },
             "anchor": {
                 "x": 0.5,
@@ -27,12 +677,12 @@
             }
         },
         {
-            "filename": "8",
+            "filename": "parado_(1)",
             "frame": {
                 "w": 41,
                 "h": 63,
-                "x": 101,
-                "y": 124
+                "x": 1019,
+                "y": 764
             },
             "anchor": {
                 "x": 0.5,
@@ -40,12 +690,233 @@
             }
         },
         {
-            "filename": "1",
+            "filename": "pistoljet_(4)",
+            "frame": {
+                "w": 63,
+                "h": 64,
+                "x": 1121,
+                "y": 40
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doblegolpe_(4)",
+            "frame": {
+                "w": 62,
+                "h": 54,
+                "x": 1121,
+                "y": 154
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(1)",
+            "frame": {
+                "w": 42,
+                "h": 62,
+                "x": 1042,
+                "y": 640
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(2)",
+            "frame": {
+                "w": 45,
+                "h": 62,
+                "x": 1134,
+                "y": 258
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(1)",
+            "frame": {
+                "w": 42,
+                "h": 62,
+                "x": 1134,
+                "y": 370
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(2)",
+            "frame": {
+                "w": 45,
+                "h": 62,
+                "x": 1134,
+                "y": 482
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(19)",
+            "frame": {
+                "w": 43,
+                "h": 62,
+                "x": 1134,
+                "y": 594
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(1)",
+            "frame": {
+                "w": 32,
+                "h": 61,
+                "x": 1019,
+                "y": 877
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doblegolpe_(2)",
+            "frame": {
+                "w": 40,
+                "h": 60,
+                "x": 1134,
+                "y": 706
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(2)",
+            "frame": {
+                "w": 39,
+                "h": 60,
+                "x": 1101,
+                "y": 877
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffygolpepie_(20)",
+            "frame": {
+                "w": 40,
+                "h": 60,
+                "x": 1234,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(3)",
+            "frame": {
+                "w": 40,
+                "h": 60,
+                "x": 1233,
+                "y": 160
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(7)",
+            "frame": {
+                "w": 39,
+                "h": 60,
+                "x": 1226,
+                "y": 370
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(3)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 1229,
+                "y": 480
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(13)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 1229,
+                "y": 588
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(12)",
+            "frame": {
+                "w": 40,
+                "h": 58,
+                "x": 1227,
+                "y": 696
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffylevantandose_(3)",
+            "frame": {
+                "w": 34,
+                "h": 65,
+                "x": 1224,
+                "y": 804
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "corriendo_(2)",
             "frame": {
                 "w": 47,
-                "h": 57,
-                "x": 172,
-                "y": 30
+                "h": 67,
+                "x": 1324,
+                "y": 40
             },
             "anchor": {
                 "x": 0.5,
@@ -53,12 +924,12 @@
             }
         },
         {
-            "filename": "5",
+            "filename": "corriendo_(6)",
             "frame": {
                 "w": 49,
-                "h": 57,
-                "x": 30,
-                "y": 217
+                "h": 67,
+                "x": 1319,
+                "y": 260
             },
             "anchor": {
                 "x": 0.5,
@@ -66,12 +937,12 @@
             }
         },
         {
-            "filename": "7",
+            "filename": "corriendo_(8)",
             "frame": {
                 "w": 46,
-                "h": 57,
-                "x": 172,
-                "y": 117
+                "h": 67,
+                "x": 1324,
+                "y": 147
             },
             "anchor": {
                 "x": 0.5,
@@ -79,12 +950,311 @@
             }
         },
         {
-            "filename": "3",
+            "filename": "corriendo_(4)",
+            "frame": {
+                "w": 48,
+                "h": 66,
+                "x": 1319,
+                "y": 367
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "corriendo_(7)",
+            "frame": {
+                "w": 56,
+                "h": 62,
+                "x": 1308,
+                "y": 794
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doblegolpe_(1)",
+            "frame": {
+                "w": 40,
+                "h": 56,
+                "x": 1317,
+                "y": 696
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffysalto_(6)",
+            "frame": {
+                "w": 35,
+                "h": 56,
+                "x": 1319,
+                "y": 483
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "pistoljet_(1)",
+            "frame": {
+                "w": 56,
+                "h": 60,
+                "x": 1421,
+                "y": 40
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "corriendo_(1)",
+            "frame": {
+                "w": 47,
+                "h": 65,
+                "x": 1319,
+                "y": 579
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "corriendo_(3)",
+            "frame": {
+                "w": 55,
+                "h": 62,
+                "x": 1421,
+                "y": 140
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "corriendo_(5)",
+            "frame": {
+                "w": 48,
+                "h": 65,
+                "x": 1404,
+                "y": 473
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffydash_(3)",
+            "frame": {
+                "w": 51,
+                "h": 55,
+                "x": 1417,
+                "y": 377
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffyhumo",
+            "frame": {
+                "w": 18,
+                "h": 55,
+                "x": 1407,
+                "y": 694
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "pistoljet_(5)",
+            "frame": {
+                "w": 55,
+                "h": 62,
+                "x": 1420,
+                "y": 242
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(4)",
+            "frame": {
+                "w": 54,
+                "h": 50,
+                "x": 1416,
+                "y": 588
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffymagnum_(15)",
+            "frame": {
+                "w": 38,
+                "h": 54,
+                "x": 1414,
+                "y": 799
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doblegolpe_(3)",
+            "frame": {
+                "w": 40,
+                "h": 53,
+                "x": 1527,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffycayendo_(2)",
+            "frame": {
+                "w": 40,
+                "h": 53,
+                "x": 1526,
+                "y": 153
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "pistoljet_(2)",
+            "frame": {
+                "w": 53,
+                "h": 60,
+                "x": 1414,
+                "y": 893
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "pistoljet_(6)",
+            "frame": {
+                "w": 53,
+                "h": 60,
+                "x": 1502,
+                "y": 472
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ungolpe_(1)",
+            "frame": {
+                "w": 42,
+                "h": 53,
+                "x": 1525,
+                "y": 256
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ungolpe_(2)",
+            "frame": {
+                "w": 50,
+                "h": 53,
+                "x": 1517,
+                "y": 688
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "pistoljet_(3)",
+            "frame": {
+                "w": 53,
+                "h": 62,
+                "x": 1502,
+                "y": 781
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "ungolpe_(3)",
+            "frame": {
+                "w": 50,
+                "h": 51,
+                "x": 1517,
+                "y": 893
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffycayendo_(1)",
+            "frame": {
+                "w": 51,
+                "h": 48,
+                "x": 1308,
+                "y": 906
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "golpelargo_(11)",
+            "frame": {
+                "w": 50,
+                "h": 51,
+                "x": 1617,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "luffylevantandose_(1)",
             "frame": {
                 "w": 50,
                 "h": 56,
-                "x": 109,
-                "y": 217
+                "x": 1617,
+                "y": 121
             },
             "anchor": {
                 "x": 0.5,
@@ -92,12 +1262,12 @@
             }
         },
         {
-            "filename": "4",
+            "filename": "luffycayendo_(3)",
             "frame": {
-                "w": 48,
-                "h": 56,
-                "x": 249,
-                "y": 30
+                "w": 35,
+                "h": 45,
+                "x": 1229,
+                "y": 270
             },
             "anchor": {
                 "x": 0.5,
@@ -105,38 +1275,12 @@
             }
         },
         {
-            "filename": "6",
+            "filename": "luffylevantandose_(2)",
             "frame": {
-                "w": 56,
-                "h": 52,
-                "x": 189,
-                "y": 204
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "0",
-            "frame": {
-                "w": 47,
-                "h": 55,
-                "x": 249,
-                "y": 116
-            },
-            "anchor": {
-                "x": 0.5,
-                "y": 0.5
-            }
-        },
-        {
-            "filename": "2",
-            "frame": {
-                "w": 55,
-                "h": 52,
-                "x": 30,
-                "y": 304
+                "w": 40,
+                "h": 57,
+                "x": 548,
+                "y": 660
             },
             "anchor": {
                 "x": 0.5,

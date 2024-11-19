@@ -1,0 +1,128 @@
+{
+    "anims": [
+        {
+            "key": "kaidoataquearriba",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 8,
+            "frames": [
+                {
+                    "key": "kaido",
+                    "frame": "kaidoatacandoarriba_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoatacandoarriba_(2)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoatacandoarriba_(3)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoatacandoarriba_(4)"
+                }
+            ]
+        },
+        {
+            "key": "kaidoataquelado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "kaido",
+                    "frame": "kaidoatacandoarriba_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(2)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(3)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(4)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoataquelados_(5)"
+                }
+            ]
+        },
+        {
+            "key": "kaidocaminando",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(2)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(3)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(4)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(5)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(6)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(7)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidocaminando_(8)"
+                }
+            ]
+        },
+        {
+            "key": "kaidoparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "kaido",
+                    "frame": "kaidoparado_(1)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoparado_(2)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoparado_(3)"
+                },
+                {
+                    "key": "kaido",
+                    "frame": "kaidoparado_(4)"
+                }
+            ]
+        }
+    ]
+}

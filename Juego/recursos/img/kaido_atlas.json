@@ -1,0 +1,281 @@
+{
+    "frames": [
+        {
+            "filename": "kaidoatacandoarriba_(2)",
+            "frame": {
+                "w": 163,
+                "h": 158,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoatacandoarriba_(3)",
+            "frame": {
+                "w": 162,
+                "h": 154,
+                "x": 50,
+                "y": 208
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoatacandoarriba_(4)",
+            "frame": {
+                "w": 158,
+                "h": 150,
+                "x": 263,
+                "y": 0
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoatacandoarriba_(1)",
+            "frame": {
+                "w": 115,
+                "h": 137,
+                "x": 263,
+                "y": 200
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoataquelados_(3)",
+            "frame": {
+                "w": 135,
+                "h": 107,
+                "x": 50,
+                "y": 412
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoataquelados_(2)",
+            "frame": {
+                "w": 132,
+                "h": 109,
+                "x": 262,
+                "y": 387
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoparado_(1)",
+            "frame": {
+                "w": 82,
+                "h": 127,
+                "x": 471,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoparado_(2)",
+            "frame": {
+                "w": 84,
+                "h": 126,
+                "x": 444,
+                "y": 227
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoparado_(4)",
+            "frame": {
+                "w": 84,
+                "h": 126,
+                "x": 50,
+                "y": 569
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoparado_(3)",
+            "frame": {
+                "w": 85,
+                "h": 125,
+                "x": 184,
+                "y": 569
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoataquelados_(1)",
+            "frame": {
+                "w": 117,
+                "h": 123,
+                "x": 319,
+                "y": 546
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoataquelados_(5)",
+            "frame": {
+                "w": 103,
+                "h": 118,
+                "x": 603,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(5)",
+            "frame": {
+                "w": 114,
+                "h": 108,
+                "x": 578,
+                "y": 227
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(3)",
+            "frame": {
+                "w": 83,
+                "h": 113,
+                "x": 578,
+                "y": 385
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(7)",
+            "frame": {
+                "w": 83,
+                "h": 113,
+                "x": 486,
+                "y": 548
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(2)",
+            "frame": {
+                "w": 87,
+                "h": 111,
+                "x": 619,
+                "y": 548
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(8)",
+            "frame": {
+                "w": 87,
+                "h": 111,
+                "x": 619,
+                "y": 709
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidoataquelados_(4)",
+            "frame": {
+                "w": 110,
+                "h": 107,
+                "x": 50,
+                "y": 745
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(4)",
+            "frame": {
+                "w": 98,
+                "h": 110,
+                "x": 210,
+                "y": 744
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(6)",
+            "frame": {
+                "w": 98,
+                "h": 110,
+                "x": 358,
+                "y": 719
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "kaidocaminando_(1)",
+            "frame": {
+                "w": 108,
+                "h": 109,
+                "x": 756,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

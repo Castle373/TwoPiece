@@ -1,0 +1,437 @@
+{
+    "frames": [
+        {
+            "filename": "doffyataquearriba_(3)",
+            "frame": {
+                "w": 54,
+                "h": 94,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(4)",
+            "frame": {
+                "w": 55,
+                "h": 93,
+                "x": 154,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(2)",
+            "frame": {
+                "w": 55,
+                "h": 92,
+                "x": 154,
+                "y": 193
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(5)",
+            "frame": {
+                "w": 48,
+                "h": 92,
+                "x": 50,
+                "y": 194
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(4)",
+            "frame": {
+                "w": 55,
+                "h": 92,
+                "x": 259,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(3)",
+            "frame": {
+                "w": 55,
+                "h": 92,
+                "x": 259,
+                "y": 192
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(7)",
+            "frame": {
+                "w": 68,
+                "h": 91,
+                "x": 50,
+                "y": 336
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(6)",
+            "frame": {
+                "w": 63,
+                "h": 88,
+                "x": 168,
+                "y": 335
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(2)",
+            "frame": {
+                "w": 53,
+                "h": 87,
+                "x": 364,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(5)",
+            "frame": {
+                "w": 86,
+                "h": 91,
+                "x": 281,
+                "y": 304
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(5)",
+            "frame": {
+                "w": 54,
+                "h": 85,
+                "x": 467,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(6)",
+            "frame": {
+                "w": 64,
+                "h": 84,
+                "x": 364,
+                "y": 187
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(6)",
+            "frame": {
+                "w": 83,
+                "h": 94,
+                "x": 417,
+                "y": 291
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(7)",
+            "frame": {
+                "w": 67,
+                "h": 83,
+                "x": 50,
+                "y": 477
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(8)",
+            "frame": {
+                "w": 65,
+                "h": 80,
+                "x": 167,
+                "y": 477
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(9)",
+            "frame": {
+                "w": 56,
+                "h": 80,
+                "x": 282,
+                "y": 445
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataqueaire_(1)",
+            "frame": {
+                "w": 65,
+                "h": 79,
+                "x": 388,
+                "y": 445
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyriendo_(3)",
+            "frame": {
+                "w": 78,
+                "h": 77,
+                "x": 571,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyriendo_(2)",
+            "frame": {
+                "w": 77,
+                "h": 76,
+                "x": 571,
+                "y": 177
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyriendo_(1)",
+            "frame": {
+                "w": 76,
+                "h": 74,
+                "x": 550,
+                "y": 303
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyparado_(3)",
+            "frame": {
+                "w": 49,
+                "h": 96,
+                "x": 503,
+                "y": 415
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyparado_(2)",
+            "frame": {
+                "w": 49,
+                "h": 95,
+                "x": 50,
+                "y": 590
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyparado_(1)",
+            "frame": {
+                "w": 50,
+                "h": 94,
+                "x": 149,
+                "y": 590
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyparado_(4)",
+            "frame": {
+                "w": 50,
+                "h": 93,
+                "x": 249,
+                "y": 587
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(3)",
+            "frame": {
+                "w": 73,
+                "h": 93,
+                "x": 349,
+                "y": 545
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataquearriba_(1)",
+            "frame": {
+                "w": 72,
+                "h": 64,
+                "x": 472,
+                "y": 574
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(4)",
+            "frame": {
+                "w": 71,
+                "h": 94,
+                "x": 699,
+                "y": 20
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(1)",
+            "frame": {
+                "w": 54,
+                "h": 99,
+                "x": 699,
+                "y": 134
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(9)",
+            "frame": {
+                "w": 52,
+                "h": 99,
+                "x": 698,
+                "y": 253
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(10)",
+            "frame": {
+                "w": 54,
+                "h": 99,
+                "x": 676,
+                "y": 372
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(2)",
+            "frame": {
+                "w": 68,
+                "h": 94,
+                "x": 594,
+                "y": 531
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(7)",
+            "frame": {
+                "w": 64,
+                "h": 94,
+                "x": 50,
+                "y": 705
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "doffyataque_(8)",
+            "frame": {
+                "w": 56,
+                "h": 93,
+                "x": 712,
+                "y": 491
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

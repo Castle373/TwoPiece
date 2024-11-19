@@ -6,23 +6,58 @@
     "activeFile": "",
     "expandedProjectPaths": [
     ],
+    "file.lastUsedOpenFilter": "Todos los archivos (*)",
     "fileStates": {
         "": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "#pisoPiedra": {
+            "scaleInDock": 1
+        },
+        "#pisoPiedra.ong": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "Wano.tmx": {
+            "scale": 0.125,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1852,
+                "y": 1180
+            }
+        },
+        "Wano.tmx#items": {
             "scaleInDock": 1
         },
         "items.tsx": {
-            "scaleInDock": 1
+            "scaleInDock": 1,
+            "scaleInEditor": 1
         }
     },
-    "last.externalTilesetPath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/tiled",
+    "last.exportedFilePath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/scripts",
+    "last.externalTilesetPath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/img",
     "last.imagePath": "C:/Users/diego/OneDrive/Documentos/Carmen/TwoPiece/Juego/recursos/img",
-    "map.height": 58,
-    "map.width": 125,
+    "map.height": 20,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 100,
+    "map.tileWidth": 100,
+    "map.width": 50,
     "openFiles": [
     ],
     "project": "Wano.tiled-project",
     "property.type": "bool",
     "recentFiles": [
+        "items.tsx",
+        "Wano.tmx"
     ],
-    "tileset.embedInMap": true
+    "tileset.embedInMap": true,
+    "tileset.lastUsedFilter": "Todos los archivos (*)",
+    "tileset.tileSize": {
+        "height": 100,
+        "width": 100
+    }
 }
