@@ -1,6 +1,90 @@
 {
     "anims": [
         {
+            "key": "doffyespalda",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(15)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(16)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(17)"
+                }
+            ]
+        },
+        {
+            "key": "doffyrisa",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(3)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(4)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(5)"
+                }
+            ]
+        },
+        {
+            "key": "doffyfinal",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(6)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(7)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(8)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(9)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(10)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(11)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(12)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(13)"
+                },
+                {
+                    "key": "doffy",
+                    "frame": "doffyfinal_(14)"
+                }
+            ]
+        },
+        {
             "key": "doffyatacandoarriba",
             "type": "frames",
             "repeat": -1,

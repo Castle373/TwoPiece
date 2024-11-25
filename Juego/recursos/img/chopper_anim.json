@@ -1,0 +1,92 @@
+{
+    "anims": [
+        {
+            "key": "chispas",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(1)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(2)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(3)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(4)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(5)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(6)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chispas_(7)"
+                }
+            ]
+        },
+        {
+            "key": "estrella",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "chopper",
+                    "frame": "estrellita_(1)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "estrellita_(2)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "estrellita_(4)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "estrellita_(3)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "estrellita_(5)"
+                }
+            ]
+        },
+        {
+            "key": "chopper",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "chopper",
+                    "frame": "chopper_(1)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chopper_(2)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chopper_(3)"
+                },
+                {
+                    "key": "chopper",
+                    "frame": "chopper_(4)"
+                }
+            ]
+        }
+    ]
+}

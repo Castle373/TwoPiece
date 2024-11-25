@@ -12,12 +12,10 @@ export default class LevelDress extends Phaser.Scene {
     preload() {
         this.load.atlas('luffy', 'recursos/img/luffy.png', 'recursos/img/luffy_atlas.json');
         this.load.atlas('doffy', 'recursos/img/doffy.png', 'recursos/img/doffy_atlas.json');
-        this.load.atlas('hilo', 'recursos/img/hilo.png', 'recursos/img/hilo_atlas.json');
         this.load.atlas('vida', 'recursos/img/barravida.png', 'recursos/img/barravida_atlas.json');
         this.load.atlas('corazones', 'recursos/img/corazones.png', 'recursos/img/corazones_atlas.json');
         this.load.json('corazonAnims', 'recursos/img/corazones_anim.json');
         this.load.json('doffyAnims', 'recursos/img/doffy_anim.json');
-        this.load.json('hiloAnims', 'recursos/img/hilo_anim.json');
         this.load.image('items', 'recursos/img/items.png');
         this.load.image('piso', 'recursos/img/piso.png');
         this.load.image('ladrillos', 'recursos/img/ladrillos.png');
@@ -31,12 +29,35 @@ export default class LevelDress extends Phaser.Scene {
         this.load.audio('hiloAbajoGrito', 'recursos/sound/hiloAbajo.wav');
         this.load.audio('hiloArribaTiro', 'recursos/sound/hiloArribaTiro.wav');
         this.load.audio('hiloArribaGrito', 'recursos/sound/hiloArriba.wav');
-        this.load.audio('risaDoffy', 'recursos/sound/risaDoffy.wav');
-        this.load.audio('cambioLugar', 'recursos/sound/cambioLugar.wav');
+        this.load.audio('risaDoffy1', 'recursos/sound/risaDoffy1.wav');
+        this.load.audio('risaDoffy2', 'recursos/sound/risaDoffy2.wav');
+        this.load.audio('risaDoffy3', 'recursos/sound/risaDoffy3.wav');
+        this.load.audio('risaDoffy4', 'recursos/sound/risaDoffy4.wav');
 
         
+        this.load.atlas('hilo', 'recursos/img/hilo.png', 'recursos/img/hilo_atlas.json');
+        this.load.json('hiloAnims', 'recursos/img/hilo_anim.json');
+        this.load.atlas('polvo', 'recursos/img/polvo.png', 'recursos/img/polvo_atlas.json');
+        this.load.json('polvoAnims', 'recursos/img/polvo_anim.json');
+        this.load.atlas('ode', 'recursos/img/ode.png', 'recursos/img/ode_atlas.json');
+        this.load.json('odeAnims', 'recursos/img/ode_anim.json');
+        this.load.atlas('flecha', 'recursos/img/flecha.png', 'recursos/img/flecha_atlas.json');
+        this.load.json('flechaAnims', 'recursos/img/flecha_anim.json');
+
+        this.load.audio('cambioLugar', 'recursos/sound/cambioLugar.wav');
+
+        this.load.audio('muchosHilos', 'recursos/sound/muchosHilos.wav');
+      
+        this.load.audio('ataqueDoffyF', 'recursos/sound/ataqueDoffyF.wav');
+        
         this.load.audio('golpeKaido', 'recursos/sound/golpeKaido.wav');
-        this.load.audio('ruidoGolpe', 'recursos/sound/ruidoGolep.wav');
+
+        //
+        this.load.audio('ruidoGolpe1', 'recursos/sound/ruidoGolep.wav');
+        this.load.audio('ruidoGolpe2', 'recursos/sound/ruidoGolep2.wav');
+        this.load.audio('ruidoGolpe3', 'recursos/sound/ruidoGolep3.wav');
+
+
         this.load.audio('golpeLuffy', 'recursos/sound/golpeluffy (2).wav');
         this.load.audio('golpeCaida', 'recursos/sound/caidaGolpe.wav');
         this.load.audio('oraKaido', 'recursos/sound/golpeKaidoSonido.wav');
@@ -55,6 +76,16 @@ export default class LevelDress extends Phaser.Scene {
         this.vidaDisplay.setScale(0.4);
         this.vidaDisplay.setScrollFactor(0);
     }
+    playRandomSoundAttack() {
+        // Genera un índice aleatorio entre 1 y 3
+        const randomIndex = Phaser.Math.Between(1, 3);
+    
+        // Determina el nombre del sonido con base en el índice
+        const soundKey = `ruidoGolpe${randomIndex}`;
+    
+        // Reproduce el sonido aleatorio
+        this.sound.play(soundKey);
+    }
     create() {
         this.luffyVidas = 5;
         this.background = this.add.image(0, 0, 'coliseo').setOrigin(0).setScrollFactor(0);
@@ -65,7 +96,8 @@ export default class LevelDress extends Phaser.Scene {
         this.hiloAbajoGrito = this.sound.add('hiloAbajoGrito');
         this.hiloArribaTiro = this.sound.add('hiloArribaTiro');
         this.hiloArribaGrito = this.sound.add('hiloArribaGrito');
-        this.risaDoffy = this.sound.add('risaDoffy');
+        this.risaDoffy = this.sound.add('risaDoffy4');
+
         this.cambioLugar = this.sound.add('cambioLugar');
         this.cambioLugar.setVolume(0.5);
         
@@ -82,8 +114,8 @@ export default class LevelDress extends Phaser.Scene {
         
 
         // Acceder a los proyectiles de Doffy y agregar un collider
-        this.physics.add.collider(this.proyectiles , this.luffy.sprite, this.handleProjectileHitLuffy, null, this);
-
+        this.physics.add.overlap(this.doffy.sprite , this.luffy.sprite, this.colisionAtaque, null, this);
+        this.physics.add.overlap(this.proyectiles , this.luffy.sprite, this.handleProjectileHitLuffy, null, this);
         
         this.createAnimationsCorazon() ;
         this.updateVidaDisplay();
@@ -99,20 +131,51 @@ export default class LevelDress extends Phaser.Scene {
         this.caidaC = this.sound.add('golpeCaida');
         this.golpeL = this.sound.add('golpeLuffy');
         this.golpeK = this.sound.add('golpeKaido');
-        this.ruidoGolpe = this.sound.add('ruidoGolpe');
         this.luffy.walkSounds[0].setRate(1.7);
         this.luffy.walkSounds[1].setRate(1.7);
         this.luffy.walkSounds[0].setVolume(0.3);
         this.luffy.walkSounds[1].setVolume(0.3);
+        this.isDamaging=false;
+    }
+    colisionAtaque(){
+        if (this.luffy.colisionAtaque && !this.luffy.hasHit) {
+            const damage = this.luffy.getAttackDamage();
+            this.playRandomSoundAttack();
+            this.doffy.health -= damage;
+    
+            if (this.doffy.health <= 0) {
+                this.doffy.health = 0;
+                this.doffy.die();
+            }
+    
+            this.luffy.hasHit = true; // Marca que el daño ya fue aplicado
+        }
     }
     handleProjectileHitLuffy(luffy, proyectil) {
         // Destruir el proyectil
-        proyectil.destroy();//
-
+        if (proyectil.texture.key === "hilo") {
+            proyectil.destroy();
+           // this.takeDamage(1); // Aplica el daño al golpear
+            return;
+        }
+    
+        // Comprobar si ya está causando daño, si no, aplicamos el daño
+        if (!this.isDamaging) {
+            this.isDamaging = true;  // Activa la bandera de daño continuo
+  //          this.takeDamage(1); // Aplica daño de 2
+    
+            // Temporizador que desactiva el daño después de 1 segundo
+            this.time.delayedCall(1000, () => {
+                this.isDamaging = false; // Desactiva la bandera después de 1 segundo
+            });
+        }
+        
         // Aplicar daño a Luffy
-        this.takeDamage(1);
+     
     }
     takeDamage(amount) {
+        this.hiloArribaTiro.play();
+        
         this.luffyVidas -= amount;
 
         // Si Luffy tiene vidas restantes, actualizar la visualización
@@ -228,10 +291,11 @@ export default class LevelDress extends Phaser.Scene {
     update() {
         this.luffy.update();
         this.updateHealthBar();
-        if (!this.luffy.isAttacking) {
-            this.atacar = true;
+        if (!this.luffy.colisionAtaque) {
+            this.luffy.hasHit = false;
         }
         this.doffy.update();
+        
     }
     endLevel() {
         this.scene.start('Level0');

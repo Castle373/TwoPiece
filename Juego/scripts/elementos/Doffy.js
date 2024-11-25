@@ -6,10 +6,10 @@ export default class Doffy {
         this.isAttacking = false;
         this.canFollow = true;
         this.create(x, y);
-        this.maxHealth = 2000;  // Salud máxima de Kaido
+        this.maxHealth = 100;  // Salud máxima de Kaido
         this.health = this.maxHealth;
         this.actu = true;
-
+        this.specialAttackUsed = false;
         this.attackSounds = {
 
 
@@ -52,65 +52,210 @@ export default class Doffy {
         }, [], this);
 
     }
+    changeAttackTimerDelay(newDelay) {
+        if (this.attackTimer) {
+            // Detiene el temporizador actual
+            this.attackTimer.remove();
+
+            // Crea un nuevo temporizador con el nuevo delay
+            this.attackTimer = this.scene.time.addEvent({
+                delay: newDelay, // Nuevo tiempo entre ataques
+                callback: this.shoot,
+                callbackScope: this,
+                loop: true // El temporizador sigue siendo cíclico
+            });
+        }
+    }
+    pauseResumeAttackTimer() {
+        if (this.attackTimer) {
+            // Alterna entre pausar y reanudar el temporizador
+            this.attackTimer.paused = !this.attackTimer.paused;
+        }
+    }
+
     reir() {
         this.isAttacking = true;
         const position = this.scene.spawnObjects['doffyRiendo'];
         this.sprite.setPosition(position.x, position.y);
         // Reproduce la animación de ataque
         this.sprite.anims.play('doffyriendo', true);
-        this.scene.risaDoffy.play();
+        this.playRandomLaugh();
         // Escucha cuando la animación de ataque termine
         this.sprite.on('animationcomplete-doffyriendo', () => {
             this.isAttacking = false; // Permite volver a la animación 
             this.canShoot = true;
         });
     }
+    playRandomLaugh() {
+        // Lista de nombres de los audios cargados
+        const laughSounds = [
+            'risaDoffy1',
+            'risaDoffy2',
+            'risaDoffy3'
+        ];
+
+        // Selecciona uno al azar
+        const randomSound = Phaser.Math.RND.pick(laughSounds);
+
+        // Reproduce el sonido aleatorio
+        this.scene.sound.play(randomSound);
+    }
     shoot() {
+        console.log(this.canShoot);
         if (!this.canShoot) return; // No disparar si un proyectil ya está activo
-    
+        console.log("luegoluego");
         this.iniciarDisparo();
-    
+        
+        if (this.health <= this.maxHealth / 2) {
+            if (!this.specialAttackUsed) { // Verificar si ya se usó el ataque forzado
+                this.executeSpecialAttack();
+                this.specialAttackUsed = true; // Marcar que se usó el ataque especial forzado
+                this.changeAttackTimerDelay(1500); // Modificar el delay a 3 segundos (ejemplo)
+                return; // No continuar con ataques normales
+            }
+
+            // Si ya se forzó, usar probabilidades (10%)
+            const probability = Phaser.Math.Between(1, 20);
+            if (probability <= 10) {
+                
+                this.executeSpecialAttack();
+                return; // No continuar con ataques normales
+            }
+        }
+        console.log("cambiodelugar");
+        this.canShoot = false;  
+        
         if (this.verificarRisa()) return; // Verificar si Doffy ríe
-    
+
         this.seleccionarYActualizarPosicion(); // Seleccionar posición y actualizar animación
-    
+
         // Esperar a que termine la animación antes de disparar
         this.scene.time.delayedCall(500, () => {
             this.dispararProyectiles(); // Lógica de disparo después de 1 segundo
         });
     }
-    
+
     /** Métodos auxiliares */
-    
+    executeSpecialAttack() {
+        const position = this.scene.spawnObjects['doffyFinal'];
+        this.sprite.setPosition(position.x, position.y);
+        this.specialProjectile();
+    }
     iniciarDisparo() {
         this.scene.cambioLugar.play();
         this.canShoot = false;
     }
+    specialProjectile() {;
+        console.log("ataque final");
+        const position = this.scene.spawnObjects['doffyRiendo'];
+        this.sprite.anims.play('doffyrisa', true);
+        this.scene.risaDoffy.setVolume(1.5);
+        this.scene.risaDoffy.play();
+        this.canShoot = false;   
+        this.scene.time.delayedCall(3500, () => {
+            this.canShoot = false;   
+            this.sprite.anims.play('doffyfinal', true);
+            this.scene.sound.play('ataqueDoffyF');
+            const randomColumn = Phaser.Math.Between(1, 8);
+
+            this.placeArrow(randomColumn);
+            this.sprite.on('animationcomplete', () => {
+                const columnToSkip=randomColumn;
+                const spacing = this.scene.textures.getFrame('ode').width;
+                const spriteHeight = this.scene.textures.getFrame('ode').height;
+                const position = this.scene.spawnObjects['doffyRiendo'];
+                const numColumns = 8; // Total de columnas (4 a la izquierda y 4 a la derecha)
+                const allSprites = []; // Array para almacenar todos los sprites creados
+
+                // Generar los sprites en filas
+                for (let row = 0; row < 2; row++) { // 2 filas (una base, otra encima)
+                    const offsetY = row === 0 ? 0 : -spriteHeight;
+                    for (let col = -numColumns / 2; col <= numColumns / 2; col++) {
+                        const columnIndex = col + (numColumns / 2 + 1); // Índice absoluto de la columna
+                        if (columnIndex === columnToSkip) continue; // Omitir la columna especificada
+                        const offsetX = col * spacing; // Calcular el desplazamiento horizontal
+                        const specialSprite = this.projectiles.create(position.x + offsetX, position.y + offsetY, 'ode');
+                        specialSprite.play("ode");
+                        allSprites.push(specialSprite); // Almacenar el sprite
+                    }
+                }
+
+                // Crear los sprites de "polvo" en la posición base con un poco de desplazamiento vertical
+                const polvoYOffset = 30;
+                for (let col = -numColumns / 2; col <= numColumns / 2; col++) {
+                    const columnIndex = col + (numColumns / 2 + 1);
+                    if (columnIndex === columnToSkip) continue; // Omitir la columna especificada
+                    const offsetX = col * spacing;
+                    const polvoSprite = this.projectiles.create(position.x + offsetX, position.y + polvoYOffset, 'polvo');
+                    polvoSprite.play("polvo");
+                    allSprites.push(polvoSprite); // Almacenar el sprite
+                }
+
+                // Configurar la destrucción de todos los sprites después de 3 segundos
+                this.scene.time.delayedCall(3000, () => {
+                    allSprites.forEach(sprite => sprite.destroy());
+                    console.log("lo estoy haciendo true");
+                    this.canShoot = true;
+                  
+                });
+
+
+                this.scene.sound.play('muchosHilos');
+                this.scene.risaDoffy.play();
+                this.sprite.anims.play('doffyespalda', true);
+                this.sprite.off('animationcomplete'); // Desactivar evento para evitar llamadas duplicadas
+            });
+
+        });
+
+    }
+    placeArrow(columnToSkip) {
+        const spacing = this.scene.textures.getFrame('ode').width;
+        const spacingF = this.scene.textures.getFrame('flecha').width; // Ancho de cada sprite 'ode'
+        const position = this.scene.spawnObjects['doffyRiendo']; // Posición base para los sprites
+        var offsetX=0;
+        // Calcular el desplazamiento horizontal (offsetX) para la flecha en la columna a omitir
+      
+             offsetX = (columnToSkip - 5) * spacing; 
+        
+
+        // Multiplicamos el desplazamiento por el valor de spacing
     
+        // Crear el sprite de la flecha en la posición calculada
+        const arrowSprite = this.scene.physics.add.sprite(position.x + offsetX, position.y, 'flecha'); // Usamos 'flecha' como la clave del sprite de la flecha
+        arrowSprite.play("flecha"); // Reproducir la animación de la flecha si la tiene
+        this.scene.time.delayedCall(2000, () => {
+            arrowSprite.destroy();
+        });
+        // Si quieres que la flecha desaparezca después de unos segundos, puedes configurarlo aquí
+        
+    }
+
     verificarRisa() {
         const randomChance = Math.random();
         if (randomChance <= 0.15 && this.lastAction !== 'reir') {
             this.lastAction = 'reir';
             this.reir(); // Permitir nuevo disparo después de reír
+            console.log("lo estoy haciendo true risa");
             this.canShoot = true; // Rehabilitar disparo tras risa
             return true;
         }
         this.lastAction = 'shoot';
         return false;
     }
-    
+
     seleccionarYActualizarPosicion() {
         const positions = ['doffyarribaI', 'doffyarribaD', 'SpawnDoffyI', 'SpawnDoffyD'];
-    
+
         do {
             this.randomKey = Phaser.Utils.Array.GetRandom(positions);
         } while (this.randomKey === this.previousPosition);
-    
+
         this.previousPosition = this.randomKey;
-    
+
         const position = this.scene.spawnObjects[this.randomKey];
         this.sprite.setPosition(position.x, position.y);
-    
+
         if (this.randomKey === 'doffyarribaD' || this.randomKey === 'doffyarribaI') {
             this.sprite.flipX = this.randomKey === 'doffyarribaD';
             this.sprite.play('doffyatacadoaire');
@@ -121,7 +266,7 @@ export default class Doffy {
             this.isOnGround = true;
         }
     }
-    
+
     dispararProyectiles() {
         const position = this.scene.spawnObjects[this.randomKey];
         this.scene.hiloAbajoTiro.setVolume(1);
@@ -142,63 +287,76 @@ export default class Doffy {
             const direction = this.sprite.flipX ? -1 : 1;
             this.crearProyectilSimple(position, direction);
         }
-    
+        console.log("lo estoy haciendo true proyectil");
         this.canShoot = true; // Permitir nuevos disparos después de lanzar los proyectiles
     }
-    
+
     crearProyectilAereo(position, offsetX) {
         const direction = this.calcularDireccionProyectil(position);
-    
+
         const projectile = this.projectiles.create(position.x, position.y, 'hilo');
         projectile.setRotation(direction.angle);
         projectile.setScale(2.5);
         projectile.play('ataquehilo');
         projectile.setOrigin(0.5, 0.5);
         projectile.setSize(projectile.width, projectile.height);
-    
+
         const speed = 1000;
         projectile.setVelocityX((direction.x * speed) + offsetX);
         projectile.setVelocityY(direction.y * speed);
         projectile.flipX = this.sprite.flipX;
-    
+
         this.configurarTiempoDeVida(projectile);
     }
-    
+
     crearProyectilSimple(position, direction) {
         const projectile = this.projectiles.create(position.x, position.y, 'hilo');
         projectile.setScale(2.5);
         projectile.play('ataquehilo');
         projectile.setVelocityX(1000 * direction);
         projectile.flipX = this.sprite.flipX;
-    
+
         this.configurarTiempoDeVida(projectile);
     }
-    
+
     calcularDireccionProyectil(position) {
         const directionX = this.scene.luffy.sprite.x - position.x;
         const directionY = this.scene.luffy.sprite.y - position.y;
         const magnitude = Math.sqrt(directionX * directionX + directionY * directionY);
-    
+
         return {
             x: directionX / magnitude,
             y: directionY / magnitude,
             angle: Math.atan2(directionY, directionX),
         };
     }
-    
+
     configurarTiempoDeVida(projectile) {
-        projectile.on('destroy', () => {
-            this.canShoot = true;
-        });
-    
+       
         this.scene.time.delayedCall(2000, () => {
             projectile.destroy();
         });
     }
-    
+
     createAnimationsHilos() {
         const animsData = this.scene.cache.json.get('hiloAnims');
-        console.log(animsData);
+
+        animsData.anims.forEach(anim => {
+
+            this.scene.anims.create({
+                key: anim.key,
+                frames: anim.frames.map(frame => ({ key: frame.key, frame: frame.frame })),
+                frameRate: anim.frameRate,
+                repeat: anim.repeat
+            });
+        });
+        this.createAnimationsOde();
+        this.createAnimationsPolvo();
+        this. createAnimationsFlecha();
+    }
+    createAnimationsOde() {
+        const animsData = this.scene.cache.json.get('odeAnims');
+
         animsData.anims.forEach(anim => {
 
             this.scene.anims.create({
@@ -209,6 +367,33 @@ export default class Doffy {
             });
         });
 
+    }
+    createAnimationsFlecha() {
+        const animsData = this.scene.cache.json.get('flechaAnims');
+
+        animsData.anims.forEach(anim => {
+
+            this.scene.anims.create({
+                key: anim.key,
+                frames: anim.frames.map(frame => ({ key: frame.key, frame: frame.frame })),
+                frameRate: anim.frameRate,
+                repeat: anim.repeat
+            });
+        });
+
+    }
+    createAnimationsPolvo() {
+        const animsData = this.scene.cache.json.get('polvoAnims');
+
+        animsData.anims.forEach(anim => {
+
+            this.scene.anims.create({
+                key: anim.key,
+                frames: anim.frames.map(frame => ({ key: frame.key, frame: frame.frame })),
+                frameRate: anim.frameRate,
+                repeat: anim.repeat
+            });
+        });
 
     }
     createAnimations() {
@@ -302,126 +487,7 @@ export default class Doffy {
             this.sprite.anims.play('doffyparado', true);
         }
     }
-    hitbox() {
 
-        const currentFrame = this.sprite.anims.currentFrame;
-
-        if (currentFrame) {
-            const frameData = this.scene.textures.getFrame('kaido', currentFrame.frame.name);
-
-            if (frameData) {
-                const { width, height, x, y } = frameData;
-                this.sprite.body.setSize(width, height);
-                if (this.sprite.anims.currentAnim && this.sprite.anims.currentAnim.key === 'kaidoataquearriba') {
-                    // Si Kaido está atacando, alargar la hitbox en la dirección en que mira
-                    const extendedWidth = width + 40; // Añadir 40 píxeles al ancho de la hitbox
-
-                    this.sprite.body.setSize(extendedWidth, height);
-
-                    if (this.sprite.flipX) {
-                        // Si está volteado a la izquierda, desplaza la hitbox hacia la izquierda
-                        this.sprite.body.setOffset(x - 40, y);
-                    } else {
-                        // Si está mirando a la derecha, desplaza la hitbox hacia la derecha
-                        this.sprite.body.setOffset(x, y);
-                    }
-                } else {
-                    // Si no está atacando, usa la hitbox normal
-                    this.sprite.body.setSize(width, height);
-                    this.sprite.body.setOffset(x, y);
-                }
-
-
-            }
-        }
-    }
-
-
-
-
-
-
-
-    followLuffy() {
-        const luffyPosition = this.scene.luffy.sprite;
-        const kaidoPosition = this.sprite;
-
-        const distanceX = Math.abs(kaidoPosition.x - luffyPosition.x); // Distancia en el eje X
-        const followRange = 300;
-        const attackRange = 50; // Rango para atacar a Luffy
-        if (this.isAttacking) {
-            this.sprite.setVelocityX(0); // Detener el movimiento horizontal durante el ataque
-            return; // Salir de la función si está atacando
-        }
-        if (distanceX < attackRange) {
-            // Cuando esté en rango de ataque, reproducir animación de ataque
-            kaidoPosition.setVelocityX(0);
-            if (kaidoPosition.anims.currentAnim.key !== 'kaidoataquearriba' || !kaidoPosition.anims.isPlaying) {
-                this.attack();
-            }
-            // Detener el movimiento horizontal al atacar
-        } else if (distanceX < followRange) {
-            // Cuando esté en rango de seguimiento, moverse hacia Luffy solo en X
-            const speed = 100;
-            const direction = (luffyPosition.x < kaidoPosition.x) ? -1 : 1; // Dirección hacia Luffy
-
-            kaidoPosition.setVelocityX(speed * direction);
-
-            // Voltear animación si Luffy está a la izquierda de Kaido
-            this.sprite.flipX = (luffyPosition.x < kaidoPosition.x);
-
-            // Reproducir animación de caminar si Kaido se está moviendo
-            if (kaidoPosition.anims.currentAnim.key !== 'kaidocaminando' || !kaidoPosition.anims.isPlaying) {
-
-                kaidoPosition.play('kaidocaminando');
-            }
-        } else {
-            // Detener el movimiento si Luffy está fuera del rango
-            kaidoPosition.setVelocityX(0);
-
-            // Reproducir animación de "parado" cuando no se esté moviendo
-            if (kaidoPosition.anims.currentAnim.key !== 'kaidoparado' || !kaidoPosition.anims.isPlaying) {
-                kaidoPosition.play('kaidoparado');
-            }
-        }
-    }
-
-
-
-    attack() {
-        // Reproducir la animación de ataque
-        if (this.isAttacking) return;
-        this.isAttacking = true;
-        this.canFollow = false;
-        this.sprite.play('kaidoataquearriba');
-        this.playAttackSound('kaidoataquearriba');
-        // Ajustar temporalmente el tamaño de la hitbox durante el ataque
-        const attackHitboxWidth = 100; // Ancho adicional de la hitbox para el ataque
-        const baseWidth = this.sprite.width; // Ancho original del sprite
-        this.sprite.y -= 15;
-        // Ajustar la hitbox y el offset según la dirección
-        if (this.sprite.flipX) {
-            // Si Kaido está mirando hacia la izquierda
-            this.sprite.body.setSize(baseWidth + attackHitboxWidth, this.sprite.height);
-            this.sprite.body.setOffset(-attackHitboxWidth, 0); // Mover el offset a la izquierda
-        } else {
-            // Si Kaido está mirando hacia la derecha
-            this.sprite.body.setSize(baseWidth + attackHitboxWidth, this.sprite.height);
-            this.sprite.body.setOffset(0, 0); // El offset se mantiene en la posición original
-        }
-
-        // Escuchar el evento de finalización de la animación para restaurar la hitbox
-        this.sprite.on('animationcomplete', () => {
-            this.isAttacking = false;
-            // Restaurar el tamaño original de la hitbox y volver a la animación de parado
-            this.sprite.body.setSize(baseWidth, this.sprite.height);
-            this.sprite.body.setOffset(0, 0);
-            this.sprite.play('kaidoparado');
-            setTimeout(() => {
-                this.canFollow = true; // Permitir seguir a Luffy nuevamente
-            }, 100500);
-        }, this);
-    }
 
 
 

@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="59" height="20" tilewidth="23" tileheight="23" infinite="0" nextlayerid="5" nextobjectid="1">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="59" height="20" tilewidth="23" tileheight="23" infinite="0" nextlayerid="6" nextobjectid="14">
  <editorsettings>
-  <export target="../../../One piece/juego/scripts/barco2.json" format="json"/>
+  <export target="piso2.json" format="json"/>
  </editorsettings>
  <tileset firstgid="1" name="piso" tilewidth="23" tileheight="23" tilecount="1" columns="1">
-  <image source="../../../One piece/juego/img/piso.png" width="23" height="23"/>
+  <image source="../img/piso.png" width="23" height="23"/>
   <tile id="0">
    <properties>
     <property name="colision" type="bool" value="true"/>
    </properties>
   </tile>
  </tileset>
- <tileset firstgid="2" name="barco" tilewidth="23" tileheight="23" tilecount="8260" columns="59">
+ <tileset firstgid="2" name="barco" tilewidth="23" tileheight="23" tilecount="0" columns="59">
   <image source="../../../One piece/juego/img/barco.png" width="1357" height="3220"/>
  </tileset>
  <layer id="3" name="Capa de patrones 2" width="59" height="20">
   <data encoding="csv">
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,
@@ -38,4 +38,12 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="5" name="capaObjectos">
+  <object id="7" name="kinemon" x="488" y="264" width="28.6667" height="15.3333"/>
+  <object id="8" name="law" x="645.333" y="298.667" width="28" height="10.6667"/>
+  <object id="9" name="lugarNpc3" x="760" y="287.333" width="38" height="18"/>
+  <object id="10" name="lugarNpc4" x="902.667" y="275.333" width="38" height="13.3333"/>
+  <object id="11" name="aime" x="1026" y="244.667" width="43.3333" height="32"/>
+  <object id="12" name="chopper" x="1185.33" y="272.667" width="62.6667" height="28.6667"/>
+ </objectgroup>
 </map>

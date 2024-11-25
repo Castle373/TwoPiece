@@ -1,0 +1,294 @@
+{
+    "frames": [
+        {
+            "filename": "flecha16",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 25,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha14",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 178,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha15",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 25,
+                "y": 178
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha17",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 178,
+                "y": 178
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha18",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 331,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha20",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 331,
+                "y": 178
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha19",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 25,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha21",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 178,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha22",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 331,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha1",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 484,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha2",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 484,
+                "y": 178
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha3",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 484,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha4",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 25,
+                "y": 484
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha5",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 178,
+                "y": 484
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha7",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 331,
+                "y": 484
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha8",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 484,
+                "y": 484
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha6",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 637,
+                "y": 25
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha9",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 637,
+                "y": 178
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha13",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 637,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha11",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 637,
+                "y": 484
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha10",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 25,
+                "y": 637
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "flecha12",
+            "frame": {
+                "w": 128,
+                "h": 128,
+                "x": 178,
+                "y": 637
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

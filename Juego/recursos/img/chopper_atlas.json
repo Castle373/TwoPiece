@@ -1,0 +1,216 @@
+{
+    "frames": [
+        {
+            "filename": "chopper_(1)",
+            "frame": {
+                "w": 47,
+                "h": 52,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chopper_(2)",
+            "frame": {
+                "w": 46,
+                "h": 52,
+                "x": 147,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chopper_(3)",
+            "frame": {
+                "w": 46,
+                "h": 52,
+                "x": 50,
+                "y": 152
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chopper_(4)",
+            "frame": {
+                "w": 46,
+                "h": 52,
+                "x": 146,
+                "y": 152
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "estrellita_(5)",
+            "frame": {
+                "w": 27,
+                "h": 27,
+                "x": 243,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(6)",
+            "frame": {
+                "w": 25,
+                "h": 27,
+                "x": 243,
+                "y": 127
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(7)",
+            "frame": {
+                "w": 26,
+                "h": 27,
+                "x": 50,
+                "y": 254
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(5)",
+            "frame": {
+                "w": 26,
+                "h": 26,
+                "x": 126,
+                "y": 254
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(4)",
+            "frame": {
+                "w": 24,
+                "h": 24,
+                "x": 202,
+                "y": 254
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(3)",
+            "frame": {
+                "w": 22,
+                "h": 22,
+                "x": 320,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(2)",
+            "frame": {
+                "w": 15,
+                "h": 17,
+                "x": 320,
+                "y": 122
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "estrellita_(3)",
+            "frame": {
+                "w": 15,
+                "h": 15,
+                "x": 318,
+                "y": 189
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "estrellita_(4)",
+            "frame": {
+                "w": 15,
+                "h": 15,
+                "x": 276,
+                "y": 254
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "chispas_(1)",
+            "frame": {
+                "w": 8,
+                "h": 10,
+                "x": 50,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "estrellita_(2)",
+            "frame": {
+                "w": 7,
+                "h": 7,
+                "x": 108,
+                "y": 331
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "estrellita_(1)",
+            "frame": {
+                "w": 5,
+                "h": 5,
+                "x": 165,
+                "y": 330
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

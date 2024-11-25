@@ -44,3 +44,352 @@ body {
     border-color: #0056b3; /* Color del borde al enfocar */
     box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); /* Sombra al enfocar */
 }
+
+/* Estilos para la tabla */
+#table-container {
+    position: absolute;
+    top: 20%; /* Coloca la tabla un poco hacia abajo */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%; /* Ajusta el ancho de la tabla */
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con algo de transparencia */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow-y: auto;
+    max-height: 400px; /* Altura máxima para hacer scroll */
+    padding: 20px;
+}
+
+/* Estilos de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #ddd;
+}
+/* Estilo para el contenedor de habilidades con scroll */
+.habilidades-container {
+    display: flex;
+    position: absolute;
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Ajuste para centrar */
+    background: url('/maderaInvetario.png') no-repeat center center; /* Imagen de fondo */
+    background-size: contain; /* Asegura que la imagen no se deforme */
+    
+    padding: 50px; /* Espacio interno para los elementos dentro */
+    overflow-y: auto; /* Habilita el scroll si hay contenido adicional */
+    z-index: 10; /* Asegura visibilidad sobre otros elementos */
+    font-family: 'carmen', sans-serif;
+   
+}
+.habilidades-titulo {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 10%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente opcional */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+   
+}
+.habilidades-box {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 90%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente opcional */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+}
+.habilidades-inner {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 100%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+}
+/* Scroll personalizado */
+.habilidades-inner::-webkit-scrollbar {
+    
+    width: 33px; /* Ancho del scrollbar igual al ancho de la imagen */
+    
+}
+
+/* Track (pista) */
+.habilidades-inner::-webkit-scrollbar-track {
+    background: url('/ruta-a-tu-imagen.png') no-repeat center center; /* Imagen en el track */
+    background-size: contain; /* Ajustar la imagen al tamaño del track */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    transform: translateX(-10px);
+}
+
+/* Thumb (barra que se mueve) */
+.habilidades-inner::-webkit-scrollbar-thumb {
+    background: url('/mover.png') no-repeat center center; /* Imagen en el thumb */
+    background-size: contain; /* Ajustar la imagen */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    height: 62px;
+}
+
+/* Hover sobre el thumb */
+.habilidades-inner::-webkit-scrollbar-thumb:hover {
+    background:url('/mover2.png') no-repeat center center; /* Imagen con leve oscuridad */
+    background-blend-mode: multiply; /* Oscurecer pero mantener la imagen visible */
+    background-size: contain; /* Ajustar la imagen */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    height: 62px;
+    
+}
+.habilidad-card {
+    display: flex; /* Utilizamos flexbox para dividir la tarjeta */
+    justify-content: space-between; /* Espacio entre las dos secciones */
+    padding: 15px;
+    margin: 10px;
+    background-image: url('/maderaHabilidad.png'); /* Imagen de fondo */
+    background-size: contain; /* Ajustar la imagen para que se vea toda sin recortarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+  
+    border-radius: 10px;
+    width: 568px; /* El tamaño de la card se ajusta al tamaño de la imagen */
+    height: 288px; /* El tamaño de la card se ajusta al tamaño de la imagen */
+}
+
+.card-right {
+    width: 35%; /* La parte derecha ocupará el 20% */
+    display: flex; /* Usamos flexbox para alinear el contenido */
+    flex-direction: column; /* Organiza el contenido en columna */
+    justify-content: center; /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    text-align: center; /
+}
+.card-left {
+    display: flex; /* Usamos flexbox en el card-left */
+    flex-direction: column; /* Organiza los elementos en columna */
+    width: 65%; /* La parte izquierda ocupa el 65% */
+    padding-right: 10px; /* Espacio entre el contenido y la división */
+}
+
+.card-left .name {
+    margin-top: 10px;
+    height: 20%; /* 20% para el nombre */
+    display: flex;
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    text-align: center; /* Alineación del texto */
+}
+
+.card-left .image {
+    height: 60%; /* 80% para la imagen */
+    background-image: url('/maderaHabilidad.png'); /* Imagen de fondo en el lado izquierdo */
+    background-size: contain; /* Ajustar la imagen para que se vea toda sin recortarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    border-radius: 10px;
+}
+
+
+
+.card-left h4 {
+    text-align: center; /* Centra el nombre dentro de su área */
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+.card-left h1 {
+    text-align: center; /* Centra el nombre dentro de su área */
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.card-left p {
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.card-right p {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.btn-comprar {
+    width: 118px; /* Establece un tamaño adecuado para el botón */
+    height: 60px; /* Establece un tamaño adecuado para el botón */
+    background-image: url('/botonCompra.png'); /* Imagen como fondo del botón */
+    background-size: cover; /* Hace que la imagen ocupe todo el espacio del botón */
+    background-position: center; /* Centra la imagen dentro del botón */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Muestra que el botón es clickeable */
+    transition: transform 0.3s ease; /* Transición suave para el cambio de tamaño */
+    background-color: transparent;
+}
+
+.btn-comprar:hover {
+    transform: scale(1.2); /* Hace que el botón crezca al pasar el mouse */
+}
+
+.btn-comprar:active {
+    transform: scale(1); /* Vuelve a su tamaño original cuando se hace clic */
+}
+@font-face {
+    font-family: 'carmen';
+    src: url('/rainyhearts.ttf') format('truetype');
+}
+.personajes-container {
+    position: absolute;
+    top: 50%; /* Centrado vertical */
+    left: 50%; /* Centrado horizontal */
+    transform: translate(-50%, -50%); /* Ajuste para centrar */
+    background: url('/maderaInvetario.png') no-repeat center center; /* Imagen de fondo */
+    background-size: contain; /* Asegura que la imagen no se deforme */
+    padding: 50px; /* Espacio interno para los elementos dentro */
+    overflow-y: auto; /* Habilita el scroll si hay contenido adicional */
+    z-index: 10; /* Asegura visibilidad sobre otros elementos */
+    font-family: 'carmen', sans-serif;
+}
+.personajes-titulo {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 10%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente opcional */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+   
+}
+.personajes-box {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 100%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente opcional */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+}
+
+.personajes-inner {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 100%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 10px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+}
+
+/* Estilo para las tarjetas de personajes */
+.personaje-card {
+    display: flex; /* Utilizamos flexbox para dividir la tarjeta */
+    justify-content: space-between; /* Espacio entre las dos secciones */
+    padding: 15px;
+    margin: 10px;
+    background-image: url('/fondoPersonaje.png'); /* Imagen de fondo */
+    background-size: contain; /* Ajustar la imagen para que se vea toda sin recortarse */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* No repetir la imagen */
+    border-radius: 10px;
+    width: 568px; /* El tamaño de la card se ajusta al tamaño de la imagen */
+}
+/* Contenedor principal de personajes */
+
+
+/* Sección superior (25% de la altura total) */
+.personajes-top {
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 35%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    padding: 1px; /* Espaciado interno */
+    overflow-y: auto; /* Habilitar scroll */
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente opcional */
+    border: 3px solid #000000;
+    border-radius: 10px; /* Bordes redondeados */
+    position: relative; 
+}
+
+.personajes-inner-top {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;/* Ejemplo de fondo */
+}
+
+/* Sección inferior (75% de la altura total) */
+.personajes-bottom {
+    display: flex;
+    width: 100%; /* Más pequeño que el contenedor principal */
+    height: 55%; /* Controla el tamaño relativo al contenedor principal */
+    margin: auto; /* Centrar internamente */
+    overflow-y: auto; /* Habilitar scroll *//* Fondo semitransparente opcional */
+   
+    position: relative; 
+}
+
+/* Caja izquierda (35% de la sección inferior) */
+.personajes-left {
+    width: 45%;
+    height: 100%;
+    
+    background-color: rgba(0, 0, 0, 0.3); /* Fondo para la parte izquierda */
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.personajes-inner-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Caja derecha (65% de la sección inferior) */
+.personajes-right {
+    width: 65%;
+    height: 100%;
+   
+    background-color: rgba(0, 0, 0, 0.3);  /* Fondo para la parte derecha */
+    border: 3px solid #000000;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.personajes-inner-right {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

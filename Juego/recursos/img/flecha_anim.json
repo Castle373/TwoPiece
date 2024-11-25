@@ -1,0 +1,100 @@
+{
+    "anims": [
+        {
+            "key": "flecha",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 33,
+            "frames": [
+                {
+                    "key": "flecha",
+                    "frame": "flecha1"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha2"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha3"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha4"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha5"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha6"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha7"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha8"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha9"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha10"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha11"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha12"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha13"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha14"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha15"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha16"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha17"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha18"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha19"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha20"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha21"
+                },
+                {
+                    "key": "flecha",
+                    "frame": "flecha22"
+                }
+            ]
+        }
+    ]
+}

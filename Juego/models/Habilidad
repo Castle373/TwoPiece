@@ -1,0 +1,23 @@
+const { DataTypes } = require('sequelize');
+const sequelize = require('../database');
+
+const Habilidad = sequelize.define('Habilidad', {
+    idHabilidad: {
+        type: DataTypes.INTEGER,
+        primaryKey: true,      // Esto lo define como clave primaria
+        autoIncrement: true,   // Se auto-incrementa si es de tipo entero
+    },
+    nombre: {
+        type: DataTypes.STRING,
+        allowNull: false,
+    },
+    costo: {
+        type: DataTypes.INTEGER,
+        allowNull: false,
+    },
+}, {
+    tableName: 'habilidad', // Nombre de la tabla en la base de datos
+    timestamps: false,       // Ignorar columnas `createdAt` y `updatedAt`
+});
+
+module.exports = Habilidad;

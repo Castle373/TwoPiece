@@ -8,13 +8,13 @@
     <!-- Phaser desde CDN -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
 </head>
 
 <body>
     <div id="game-container" class="game-container">
         <!-- Aquí cargará tu juego -->
 
+        <!-- Formulario de inicio de sesión -->
         <div id="login-container" class="login-container">
             <h2 class="text-center mb-4" style="color: #007BFF;">Iniciar Sesión</h2>
             <div class="form-group">
@@ -28,17 +28,57 @@
                 ¿No tienes cuenta? <a href="#" style="color: #007BFF; text-decoration: none;">Regístrate aquí</a>
             </p>
         </div>
+
+        <!-- Contenedor de habilidades -->
+        <div id="habilidades-container" class="habilidades-container" style="display: none;">
+            <div class="habilidades-titulo">
+                
+            </div>
+            <div class="habilidades-box">
+                <div class="habilidades-inner">
+                    <!-- Aquí irán los cards -->
+                </div>
+            </div>
+            
+        </div>
+        <div id="personajes-container" class="personajes-container" style="display: none;">
+            <div class="personajes-titulo">
+                
+            </div>
+            <!-- Sección superior (25% de la altura) -->
+            <div class="personajes-top">
+                <div class="personajes-inner-top">
+                    <!-- Aquí puedes poner contenido para la parte superior -->
+                </div>
+            </div>
+        
+            <!-- Sección inferior (75% de la altura) -->
+            <div class="personajes-bottom">
+                <!-- Caja izquierda (35% de la sección inferior) -->
+               
+                <div class="personajes-left">
+                    <div class="personajes-inner-left">
+                        <!-- Aquí van los personajes de la caja izquierda -->
+                    </div>
+                </div>
+        
+                <!-- Caja derecha (65% de la sección inferior) -->
+                <div class="personajes-right">
+                    <div class="personajes-inner-right">
+                        <!-- Aquí estará vacío por ahora -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </div>
+
     <script src="https://cdn.jsdelivr.net/npm/phaser@latest/dist/phaser.min.js"></script>
-
-    <!-- Cargar tu archivo main.js donde inicializas el juego -->
     <script type="module" src="main.js"></script>
-
     <!-- Scripts de Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/phaser@latest/dist/phaser.min.js"></script>
 
 </body>
 

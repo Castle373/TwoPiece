@@ -1,0 +1,56 @@
+{
+    "anims": [
+        {
+            "key": "polvo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(1)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(2)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(3)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(4)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(5)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(2)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(10)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(9)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(8)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(7)"
+                },
+                {
+                    "key": "polvo",
+                    "frame": "polvo_(6)"
+                }
+            ]
+        }
+    ]
+}

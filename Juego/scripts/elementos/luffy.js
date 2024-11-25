@@ -10,7 +10,7 @@ export default class Luffy {
         this.isDashing = false; // Estado del dash
         this.dashCooldown = false; // Control de enfriamiento del dash
         this.dashSpeed = 2000; // Velocidad del dash
-        this.normalSpeed = 200;
+        this.normalSpeed = 300;
         this.isInAir = false;
         this.create(x,y);
         this.attackSounds = {
@@ -33,6 +33,7 @@ export default class Luffy {
         this.lastWalkSoundIndex  = 0;
         this.dashSound = this.scene.sound.add('dash');
         this.abanicar = this.scene.sound.add('abanicar');
+        this.colisionAtaque=false;
         
 
     }
@@ -138,7 +139,7 @@ export default class Luffy {
 
         if (this.cursorKeys.left.isDown) {
             // Mueve a Luffy hacia la izquierda
-            this.sprite.setVelocityX(-300);
+            this.sprite.setVelocityX(-400);
             if (this.sprite.flipX == false) {
 
                 // this.updateHitbox(); 
@@ -156,7 +157,7 @@ export default class Luffy {
                 
             }// Reproducir animación de correr
         } else if (this.cursorKeys.right.isDown) {
-            this.sprite.setVelocityX(300); // Mueve a Luffy hacia la derecha
+            this.sprite.setVelocityX(400); // Mueve a Luffy hacia la derecha
 
             this.sprite.flipX = false;
             // Girar Luffy hacia la derecha
@@ -179,7 +180,7 @@ export default class Luffy {
             this.isInAir = false; // Marcar que ya no está en el aire
         }
         if (this.cursorKeys.up.isDown && this.sprite.body.blocked.down) {  /// si se presiona la tecla arriba y  el personaje esta tocando algo abajo salta
-            this.sprite.setVelocityY(-400);
+            this.sprite.setVelocityY(-500);
             this.sprite.play('luffysalto', true);
             this.lastJumpSoundIndex = 1 - this.lastJumpSoundIndex; // Cambia entre 0 y 1
             this.jumpSounds[this.lastJumpSoundIndex].play();
@@ -277,10 +278,52 @@ export default class Luffy {
         let currentImpacto = null;    
         let frameCounter = 0;
         this.sprite.on('animationupdate', (animation, frame) => {
-            if (!this.isAttacking) return;
             const frameIndex = frame.index; 
             const currentFrame = this.sprite.anims.currentFrame;
 
+            switch (animation.key) {
+                case 'luffygolpepie':
+                    if (frameIndex >14&&frameIndex < 18) {
+                        this.colisionAtaque = true; // Activa la colisión en el frame 4
+                    } else {
+                        this.colisionAtaque = false; // Desactiva en otros frames
+                    }
+                    break;
+                case 'luffytree':
+                    if (frameIndex > 15&&frameIndex < 22) {
+                        this.colisionAtaque = true; // Activa la colisión en el frame 6
+                    } else {
+                        this.colisionAtaque = false; // Desactiva en otros frames
+                    }
+                    break;
+                case 'luffyjet':
+                    if (frameIndex > 0&& frameIndex<5) {
+                        this.colisionAtaque = true; // Activa la colisión en el frame 5
+                    } else {
+                        this.colisionAtaque = false; // Desactiva en otros frames
+                    }
+                    break;
+                case 'luffylargogolpe':
+                    if (frameIndex >5 && frameIndex<9) {
+                        this.colisionAtaque = true; // Activa la colisión en el frame 3
+                    } else {
+                        this.colisionAtaque = false; // Desactiva en otros frames
+                    }
+                    break;
+                case 'luffygolpe':
+                    if (frameIndex > 3) {
+                        this.colisionAtaque = true; // Activa la colisión en el frame 4
+                    } else {
+                        this.colisionAtaque = false; // Desactiva en otros frames
+                    }
+                    break;
+                default:
+                    this.colisionAtaque = false; // Desactiva colisión para animaciones desconocidas
+                    break;
+            }
+
+            if (!this.isAttacking) return;
+           
             if (currentFrame) {
                 const frameData = this.scene.textures.getFrame('luffy', currentFrame.frame.name);
                 const currentWidth = frameData.width; // Obtener el ancho del cuadro actual

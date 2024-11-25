@@ -15,7 +15,10 @@ export default class PersonajeBase {
         this.sprite.body.setGravityY(800);
 
         // Configuración de colisiones
-        this.scene.physics.add.collider(this.sprite, this.colision, this.onCollision.bind(this));
+        if(this.colision!=null){
+
+            this.scene.physics.add.collider(this.sprite, this.colision, this.onCollision.bind(this));
+        }
 
         // Crear animaciones del personaje
         this.createAnimations();

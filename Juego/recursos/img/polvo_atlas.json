@@ -1,0 +1,151 @@
+{
+    "frames": [
+        {
+            "filename": "polvo_(5)",
+            "frame": {
+                "w": 160,
+                "h": 72,
+                "x": 50,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(1)",
+            "frame": {
+                "w": 159,
+                "h": 74,
+                "x": 50,
+                "y": 172
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(2)",
+            "frame": {
+                "w": 158,
+                "h": 68,
+                "x": 260,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(4)",
+            "frame": {
+                "w": 155,
+                "h": 76,
+                "x": 260,
+                "y": 168
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(3)",
+            "frame": {
+                "w": 154,
+                "h": 75,
+                "x": 50,
+                "y": 296
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(10)",
+            "frame": {
+                "w": 142,
+                "h": 58,
+                "x": 259,
+                "y": 294
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(9)",
+            "frame": {
+                "w": 120,
+                "h": 39,
+                "x": 50,
+                "y": 421
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(11)",
+            "frame": {
+                "w": 80,
+                "h": 58,
+                "x": 254,
+                "y": 402
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(8)",
+            "frame": {
+                "w": 78,
+                "h": 54,
+                "x": 468,
+                "y": 50
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(7)",
+            "frame": {
+                "w": 62,
+                "h": 41,
+                "x": 468,
+                "y": 154
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        {
+            "filename": "polvo_(6)",
+            "frame": {
+                "w": 58,
+                "h": 45,
+                "x": 384,
+                "y": 402
+            },
+            "anchor": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    ],
+    "meta": {
+        "description": "Atlas generado con Atlas Packer Gamma V2",
+        "web": "https://gammafp.github.io/atlas-packer-phaser/"
+    }
+}

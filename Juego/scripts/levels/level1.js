@@ -30,7 +30,7 @@ export default class Level1 extends Phaser.Scene {
         this.load.audio('golpeLuffy', 'recursos/sound/golpeluffy (2).wav');
         this.load.audio('golpeCaida', 'recursos/sound/caidaGolpe.wav');
         this.load.audio('oraKaido', 'recursos/sound/golpeKaidoSonido.wav');
-        this.load.tilemapTiledJSON('mapa', 'recursos/scripts/pisoLevel2.json'); // Carga del tilemap
+        this.load.tilemapTiledJSON('mapa', 'recursos/scripts/pisoLevelWano.json'); // Carga del tilemap
         this.add.text(100, 100, 'Bienvenido a Nivel 1', { fontSize: '32px', fill: '#fff' });
     }
 
@@ -43,7 +43,7 @@ export default class Level1 extends Phaser.Scene {
 
 
         this.luffy = new Luffy(this, this.pisoColision, 400, 100);
-        this.kaido = new Kaido(this, this.pisoColision, 1000, 1500);
+        this.kaido = new Kaido(this, this.pisoColision, 1000, 100);
         //  this.physics.add.collider(this.luffy.sprite, this.swordmanGroup, this.handlePlayerEnemyCollision, null, this);
         this.physics.add.overlap(this.luffy.sprite, this.kaido.sprite, () => {
             this.handlePlayerEnemyCollision();
@@ -52,7 +52,6 @@ export default class Level1 extends Phaser.Scene {
         this.createHealthBar();
         this.cameras.main.setBounds(0, 0, this.mapa.widthInPixels, this.mapa.heightInPixels);
         this.cameras.main.startFollow(this.luffy.sprite);
-        this.luffy.landSound = this.sound.add('caminarcesped');
         this.luffy.walkSounds = [
             this.sound.add('cesped1'),
             this.sound.add('cesped2')
@@ -164,8 +163,8 @@ export default class Level1 extends Phaser.Scene {
     createTilemap() {
         this.mapa = this.make.tilemap({ key: 'mapa' });
         //this.mapa.addTilesetImage('pisopiedra', 'pisoPiedra.ong'); // Conjunto,imagen
-        const tileset = this.mapa.addTilesetImage('pisoPiedra', 'pisopiedra'); // Conjunto,imagen
-        this.pisoColision = this.mapa.createLayer("suelo", tileset, 0, 0);
+        const tileset = this.mapa.addTilesetImage('pisoPiedra.ong', 'pisopiedra'); // Conjunto,imagen
+        this.pisoColision = this.mapa.createLayer("cesped", tileset, 0, 0);
         // Cambia por el nombre de tu capa
         this.pisoColision.setCollisionByProperty({ colision: true });
     }

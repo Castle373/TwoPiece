@@ -148,7 +148,7 @@ export default class Kaido {
         const kaidoPosition = this.sprite;
     
         const distanceX = Math.abs(kaidoPosition.x - luffyPosition.x); // Distancia en el eje X
-        const followRange = 300;
+        const followRange = 2000;
         const attackRange = 50; // Rango para atacar a Luffy
         if (this.isAttacking) {
             this.sprite.setVelocityX(0); // Detener el movimiento horizontal durante el ataque
@@ -220,7 +220,7 @@ export default class Kaido {
             this.sprite.play('kaidoparado');
             setTimeout(() => {
                 this.canFollow = true; // Permitir seguir a Luffy nuevamente
-            }, 100500);
+            }, 2500);
         }, this);
     }
     
@@ -235,9 +235,6 @@ export default class Kaido {
             this.health = 0;
             this.die();  // Llamamos a un método para manejar la muerte de Kaido
         }
-
-        // Mostrar la vida actual de Kaido (esto es solo un ejemplo)
-        console.log(`Kaido recibió un ataque. Vida restante: ${this.health}`);
     }
 
     // Método para manejar la muerte de Kaido (cuando su vida llega a 0)

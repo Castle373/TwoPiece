@@ -1,0 +1,28 @@
+{
+    "anims": [
+        {
+            "key": "ode",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 12,
+            "frames": [
+                {
+                    "key": "ode",
+                    "frame": "ode_(1)"
+                },
+                {
+                    "key": "ode",
+                    "frame": "ode_(2)"
+                },
+                {
+                    "key": "ode",
+                    "frame": "ode_(3)"
+                },
+                {
+                    "key": "ode",
+                    "frame": "ode_(4)"
+                }
+            ]
+        }
+    ]
+}
