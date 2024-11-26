@@ -1,0 +1,256 @@
+{
+    "anims": [
+        {
+            "key": "vegetacorriendo",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 6,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetacorriendo_(1)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetacorriendo_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetacorriendo_(3)"
+                }
+            ]
+        },
+        {
+            "key": "vegetaonda",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 7,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(1)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(3)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaonda_(6)"
+                }
+            ]
+        },
+        {
+            "key": "vegetabigbang",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(1)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(3)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(6)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(7)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(8)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(9)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetabigbang_(10)"
+                }
+            ]
+        },
+        {
+            "key": "vegetapatada",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 5,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(1)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(3)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(5)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetapatada_(6)"
+                }
+            ]
+        },
+        {
+            "key": "vegetagolpe",
+            "type": "frames",
+            "repeat": 0,
+            "frameRate": 3,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetagolpeando_(1)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetagolpeando_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetagolpeando_(3)"
+                }
+            ]
+        },
+        {
+            "key": "vegetaparado",
+            "type": "frames",
+            "repeat": -1,
+            "frameRate": 10,
+            "frames": [
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaparado_(4)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaparado_(3)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaparado_(2)"
+                },
+                {
+                    "key": "vegeta",
+                    "frame": "vegetaparado_(1)"
+                }
+            ]
+        }
+    ]
+}
